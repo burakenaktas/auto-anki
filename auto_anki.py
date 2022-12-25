@@ -11,7 +11,8 @@ word_part_range = 3
 front_field_px = [893, 154]
 back_field_px = [867, 226]
 add_field_px = [671, 1054]
-color_field_px = [285, 87]
+set_color_px = [285, 87]
+choose_color_px = [269, 87]
 color_red_px = [242, 638]
 color_green_px = [269, 638]
 color_blue_px = [301, 638]
@@ -40,9 +41,18 @@ for word in word_array:
         current_word = word[index]
         if index == 0:
             if 'der' == current_word[:3]:
-                events.click(color_field_px[0], color_field_px[1])
+                events.click(set_color_px[0], set_color_px[1])
                 events.click(color_blue_px[0], color_blue_px[1])
                 events.click(color_ok_button[0], color_ok_button[1])
+                events.click(front_field_px[0], front_field_px[1])
+                events.write(current_word)
+                events.hotkey('ctrl', 'a')
+                events.click(choose_color_px[0], choose_color_px[1])
+                continue
+        events.click(back_field_px[0], back_field_px[1])
+        events.write('{}, '.format(current_word))
+        time.sleep(5)
+
 
 # events.click(color_field_px[0], color_field_px[1])
 # events.write(deck_name)
