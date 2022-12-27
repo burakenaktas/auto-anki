@@ -1,40 +1,40 @@
-der Apfel - elma - apple
-die Banane - muz - banana
-der Birne - armut - pear
-der Käse - peynir - cheese
-der Joghurt - yoğurt - yogurt
-das Brot - ekmek - bread
-der Schinken - jambon - ham
-der Fisch - balık - fish
-das Fleisch - et - meat
-der Reis - pirinç - rice
-die Kartoffel - patates - potato
-der Salat - salata - salad
-die Tomate - domates - tomato
-der Kaffee - kahve - coffee
-der Tee - çay - tea
-der Saft - meyve suyu - juice
-der Wein - şarap - wine
-das Bier - bira - beer
-der Zucker - şeker - sugar
-das Salz - tuz - salt
-die Butter - tereyağı - butter
-das Öl - yağ - oil
-der Kuchen - kek - cake
-der Keks - kek - cookie
-der Schokolade - çikolata - chocolate
-der Eis - buz - ice cream
-der Pudding - puding - pudding
-der Honig - bal - honey
-der Senf - hardal - mustard
-die Mayonnaise - mayonez - mayonnaise
-der Ketchup - ketçap - ketchup
-der Senf - hardal - mustard
-die Soße - sos - sauce
-das Dressing - sos - dressing
-der Pfeffer - biber - pepper
-die Gewürze - baharat - spices
-der Knoblauch - sarımsak - garlic
-der Ingwer - zencefil - ginger
-der Dill - dereotu - dill
-die Petersilie - maydanoz - parsley
+wahrnehmen - fark etmek - to perceive
+verwalten - yönetmek - to manage
+verursachen - neden olmak - to cause
+verdienen - hak etmek - to deserve
+schätzen - değer vermek - to value
+intervenieren - müdahale etmek - to intervene
+gestalten - biçimlendirmek - to shape
+fordern - talep etmek - to demand
+erwarten - beklemek - to expect
+der Mörder - katil - murderer
+der Pfad - yol - path
+der Reichtum - zenginlik - wealth
+der Ruhm - şöhret - fame
+der Mangel - eksik - deficiency
+der Himmel - gökyüzü - sky
+der Grund - sebep - reason
+das Gedächtnis - hafıza - memory
+der Ersatz - yedek - replacement
+die Beziehung - ilişki - relationship
+der Verrat - ihanet - betrayal
+schmerzhaft - acı - painful
+ruhmreich - şöhretli - renowned
+wünschenswert - arzu edilir - desirable
+der Anspruch - talep - claim
+die Gerechtigkeit - adalet - justice
+das Gewissen - vicdan - conscience
+abgeschieden - terkedilmiş - abandoned
+hasserfüllt - nefret dolu - hatred-filled
+der Selbstmord - intihar - suicide
+das Selbstbewusstsein - kendine güven - self-confidence
+der Missbrauch - istismar - abuse
+die Nachhaltigkeit - sürdürülebilirlik - sustainability
+das Vorurteil - önyargı - prejudice
+die Ermutigung - cesaretlendirme - encouragement
+einflussreich - etkili - influential
+auswegslos - çıkış yolu olmayan - hopeless
+einwandfrei - itirazsız - flawless
+der Aufstieg - yükseliş - rise
+verfolgen - takip etmek - track, follow
+das Ereignis, -se - olay, etkinlik - event
