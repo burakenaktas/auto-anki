@@ -14,13 +14,14 @@ word_part_range = 2  # how many seperator are there? if x, you should write x + 
 # At least 1. If computer can't catch bot's speed, try to increase this.
 delay = 1
 
-## Find Meaning Config ##
 custom_word_file_px = [1061, 123]
-current_word_px = [1262, 96]
-chatGPT_chat_px = [823, 825]
-chatGPT_answer_px = [775, 836]
-between_two_word_px = 14
-
+inside_of_custom_word_file_px = [1200, 123]
+chatGPT_chat_px = [438, 980]
+chatGPT_question = "give me the detailed turkish meanings of following words with english - turkish meaning format without listing it:"
+chatGPT_right_click_before_examine = [748, 737]
+chatGPT_left_click_examine = [750, 720]
+chatGPT_examine_p_click = [459, 526]
+chatGPT_examine_p_copy_part = [538, 657]
 
 ## Deck Config ##
 front_field_px = [893, 154]
@@ -33,6 +34,7 @@ color_green_px = [269, 638]
 color_blue_px = [301, 638]
 color_ok_button_px = [611, 730]
 
+# time.sleep(3)
 # print(events.position())
 # time.sleep(10)
 
@@ -42,24 +44,36 @@ color_ok_button_px = [611, 730]
 
 
 def findingMeaning():
-    for number in range(3):
-        events.click(current_word_px[0], current_word_px[1])
+    events.click(custom_word_file_px[0], custom_word_file_px[1])
+    events.click(
+        inside_of_custom_word_file_px[0], inside_of_custom_word_file_px[1])
+    events.hotkey('ctrl', 'a')
     events.hotkey('ctrl', 'c')
     time.sleep(1)
     events.click(chatGPT_chat_px[0], chatGPT_chat_px[1])
-    time.sleep(1)
+    events.write(chatGPT_question)
     events.hotkey('ctrl', 'v')
     time.sleep(1)
     events.hotkey('enter')
-    time.sleep(10)
-    for number in range(3):
-        events.click(chatGPT_answer_px[0], chatGPT_answer_px[1])
-    events.hotkey('ctrl', 'c')
-    for number in range(3):
-        events.click(current_word_px[0], current_word_px[1])
+    time.sleep(120)
+    events.rightClick(
+        chatGPT_right_click_before_examine[0], chatGPT_right_click_before_examine[1])
+    time.sleep(5)
+    events.click(chatGPT_left_click_examine[0], chatGPT_left_click_examine[1])
+    time.sleep(5)
+    events.click(chatGPT_examine_p_click[0], chatGPT_examine_p_click[1])
+    time.sleep(1)
+    events.click(
+        chatGPT_examine_p_copy_part[0], chatGPT_examine_p_copy_part[1])
+    for number in range(2):
+        events.click(650, 1080)
+        time.sleep(1)
+        events.click(750, 1000)
+    events.click(custom_word_file_px[0], custom_word_file_px[1])
+    events.click(
+        inside_of_custom_word_file_px[0], inside_of_custom_word_file_px[1])
+    events.hotkey('ctrl', 'a')
     events.hotkey('ctrl', 'v')
-    current_word_px[1] += between_two_word_px
-    print(current_word_px)
 
 
 def setFrontWord(word, isGermanNoun):
@@ -95,17 +109,7 @@ def setCurrentColor(type):
 
 
 ### Custom File Preparing ###
-for word in range(word_count):
-    if word == 0:
-        events.click(custom_word_file_px[0], custom_word_file_px[1])
-        time.sleep(2)
-    findingMeaning()
-    if word == word_count - 1:
-        findingMeaning()
-        for number in range(2):
-            events.click(650, 1080)
-            time.sleep(1)
-            events.click(750, 1000)
+findingMeaning()
 
 
 ### Word Array Preparing ###

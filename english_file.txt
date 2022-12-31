@@ -1,12 +1,40 @@
-consecutive - ardışık
-deprive - yoksun bırakmak, mahrum etmek
-morbid - hastalıklı
-interject - araya girmek, laf arasında söylemek
-beware - dikkatli olmak, tehlikelerin farkında olmak
-controversy - tartışma, anlaşmazlık
-prolong - bir şeyin süresini uzatmak
-competency - yeterlilik, yetenek
-deplete - tüketmek, boşaltmak
-implicit - örtü kapalı, ima edilen
-plain - sade, düz
-lucrative - kazançlı
+examine - incelemek - to examine, to scrutinize
+covary - ilişki göstermek - to vary together, to be correlated
+distinction - ayrım, fark - a difference, a separation
+discern - fark etmek - to recognize, to distinguish
+deprived - yoksun bırakılmış - lacking, without
+conversely - tersine - in the opposite way, on the contrary
+prophecy - kehanet - a prediction, a forecast
+hence - bu yüzden - therefore, as a result
+get away - kaçmak - to escape, to flee
+gravitate - çekilme eğilimi göstermek - to be attracted, to move towards
+humongous - çok büyük - very large, huge
+inferred - çıkarım yapmak - to deduce, to deduce from evidence
+tremendously - çok, oldukça - very, greatly
+dismiss - reddetmek, çıkarmak - to reject, to remove
+ingest - yutmak, tüketmek - to swallow, to consume
+perceive - algılamak, fark etmek - to sense, to notice
+scarcity - azlık, yokluk - a shortage, a lack
+empirically - deneylerle, tecrübeyle - through experience or observation
+deviate - sapmak, uzaklaşmak - to stray, to depart from
+conjunction - birleşme, birleştirme - a joining, a linking
+in essence - esasında, özünde - at its core, in its true nature
+barf - kusmak - to vomit
+spooky - korkunç, ürkütücü - scary, frightening
+inclusion - dahil etme, içine alma - the act of including, the state of being included
+extrasensory - normal duyu dışı - beyond normal senses, supernatural
+obituary - ölüm ilanı - a notice of someone's death
+assemble - toplamak, birleştirmek - to gather, to put together
+dignity - saygı, haysiyet - respect, honor
+celestial - göksel - related to the sky or the heavens
+sober - aklı başında - clear-headed, not intoxicated
+discernibly - açıkça, belli belirtilerle - clearly, with obvious signs
+writh - kıvranmak - to twist, to squirm
+wail - ağlamak - to cry out loudly, to moan
+detriment - zarar, hasar - harm, damage
+crave - arzulamak, istemek - to desire intensely, to crave
+flesh - et - the muscle and fat of an animal or person
+wits - zekâ, aklı başında olma - intelligence, being alert
+poke - sokmak, işaret etmek - to prod, to poke
+delicate - hassas, narin - sensitive, fragile
+purification - arıtma, temiz - clearify
