@@ -1,40 +1,12 @@
-spouse - eş
-assignment - atama, ödev
-relent - merhamet, merhamet etmek
-casualty - zayiat, kaza
-limb - uzuv (bacak, kol)
-gruesome - korkunç
-mangle - ağır yaralı
-take a toll - zarar vermek
-compel - zorlamak
-elicit - ortaya çıkarmak, meydana çıkarmak
-enduring - dayanıklı, kalıcı
-vicinity - yakın, çevre
-exhibit - sergi, sergilemek, göstermek
-chunk - yığın, külçe
-chunk of - parçası (chunk of psychology)
-devote - adamak
-intersection - kavşak, "kesişme"
-intangible - soyut
-thereafter - bundan sonra
-demonstrate - göstermek, kanıtlamak
-introspective - içe dönük (introvert)
-salivation - tükürük salgılama
-digestive - sindirim
-stance - duruş, durum
-serendipitous - şans eseri
-paired - eşleştirmek
-evoke - uyandırmak, anımsatmak, hatırlatmak
-anticipate, anticipatory - beklemek (expect), öngörülü
-alas - ne yazık ki
-flurry - telaş, heyecan
-resort - başvurmak, çare, tatil yeri
-vacant - boş, sahipsiz, terk edilmiş
-trial - deneme, test, duruşma
-novel - yeni, roman
-gratify - tatmin etmek, sevindirmek
-abruptly - aniden (suddenly and unexpectedly)
-extinguish - söndürmek (especially a fire but they are using it such as an abstraction)
-striking - dikkat çekici, çarpıcı
-retention - tutulma, tutma, alıkoyma (the continued possesion, use, or control of something)
-valiant - yiğit, cesur, yürekli
+consecutive - ardışık
+deprive - yoksun bırakmak, mahrum etmek
+morbid - hastalıklı
+interject - araya girmek, laf arasında söylemek
+beware - dikkatli olmak, tehlikelerin farkında olmak
+controversy - tartışma, anlaşmazlık
+prolong - bir şeyin süresini uzatmak
+competency - yeterlilik, yetenek
+deplete - tüketmek, boşaltmak
+implicit - örtü kapalı, ima edilen
+plain - sade, düz
+lucrative - kazançlı

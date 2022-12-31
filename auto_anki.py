@@ -13,6 +13,13 @@ word_part_range = 2  # how many seperator are there? if x, you should write x + 
 # At least 1. If computer can't catch bot's speed, try to increase this.
 delay = 1
 
+## Find Meaning Config ##
+custom_word_file_px = [1061, 123]
+first_word_px = [1262, 96]
+chatGPT_chat_px = [823, 825]
+chatGPT_answer_px = [775, 836]
+current_word_px = [1262, 110]
+
 ## Deck Config ##
 front_field_px = [893, 154]
 back_field_px = [867, 226]
@@ -22,7 +29,12 @@ choose_color_px = [269, 87]
 color_red_px = [242, 638]
 color_green_px = [269, 638]
 color_blue_px = [301, 638]
-color_ok_button = [611, 730]
+color_ok_button_px = [611, 730]
+
+
+time.sleep(3)
+print(events.position())
+time.sleep(10)
 
 ### Word Array Preparing ###
 for card in card_file:
@@ -46,6 +58,8 @@ for card in card_file:
 ## Functions ##
 
 # Common Functions #
+
+# def findingMeaning(word):
 
 
 def setFrontWord(word, isGermanNoun):
@@ -77,7 +91,7 @@ def setCurrentColor(type):
     if type == 'die ':
         events.click(color_red_px[0], color_red_px[1])
     time.sleep(1)
-    events.click(color_ok_button[0], color_ok_button[1])
+    events.click(color_ok_button_px[0], color_ok_button_px[1])
 
 
 for word in word_array:
