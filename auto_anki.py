@@ -9,16 +9,18 @@ seperator = " - "
 card_file_name = "english_file.txt" if isEnglish else "german_file.txt"
 card_file = open(card_file_name, "r")
 word_array = []
+word_count = 40
 word_part_range = 2  # how many seperator are there? if x, you should write x + 1 here
 # At least 1. If computer can't catch bot's speed, try to increase this.
 delay = 1
 
 ## Find Meaning Config ##
 custom_word_file_px = [1061, 123]
-first_word_px = [1262, 96]
+current_word_px = [1262, 96]
 chatGPT_chat_px = [823, 825]
 chatGPT_answer_px = [775, 836]
-current_word_px = [1262, 110]
+between_two_word_px = 14
+
 
 ## Deck Config ##
 front_field_px = [893, 154]
@@ -31,35 +33,33 @@ color_green_px = [269, 638]
 color_blue_px = [301, 638]
 color_ok_button_px = [611, 730]
 
-
-time.sleep(3)
-print(events.position())
-time.sleep(10)
-
-### Word Array Preparing ###
-for card in card_file:
-    splitted_array = card.split(seperator)
-    if isEnglish:
-        last_one_corrected_splitted_array = [
-            text_corrector.fix_text(splitted_array[0]), text_corrector.fix_text(splitted_array[1].rsplit("\n")[0])]
-    else:
-        last_one_corrected_splitted_array = [
-            text_corrector.fix_text(splitted_array[0]),
-            text_corrector.fix_text(splitted_array[1]),
-            text_corrector.fix_text(splitted_array[2].rsplit("\n")[0])]
-    word_array.append(last_one_corrected_splitted_array)
-
-# To check word_array
-# print(word_array)
-# time.sleep(5)
-
-### Deck Writer Bot ###
+# print(events.position())
+# time.sleep(10)
 
 ## Functions ##
 
 # Common Functions #
 
-# def findingMeaning(word):
+
+def findingMeaning():
+    for number in range(3):
+        events.click(current_word_px[0], current_word_px[1])
+    events.hotkey('ctrl', 'c')
+    time.sleep(1)
+    events.click(chatGPT_chat_px[0], chatGPT_chat_px[1])
+    time.sleep(1)
+    events.hotkey('ctrl', 'v')
+    time.sleep(1)
+    events.hotkey('enter')
+    time.sleep(10)
+    for number in range(3):
+        events.click(chatGPT_answer_px[0], chatGPT_answer_px[1])
+    events.hotkey('ctrl', 'c')
+    for number in range(3):
+        events.click(current_word_px[0], current_word_px[1])
+    events.hotkey('ctrl', 'v')
+    current_word_px[1] += between_two_word_px
+    print(current_word_px)
 
 
 def setFrontWord(word, isGermanNoun):
@@ -93,6 +93,39 @@ def setCurrentColor(type):
     time.sleep(1)
     events.click(color_ok_button_px[0], color_ok_button_px[1])
 
+
+### Custom File Preparing ###
+for word in range(word_count):
+    if word == 0:
+        events.click(custom_word_file_px[0], custom_word_file_px[1])
+        time.sleep(2)
+    findingMeaning()
+    if word == word_count - 1:
+        findingMeaning()
+        for number in range(2):
+            events.click(650, 1080)
+            time.sleep(1)
+            events.click(750, 1000)
+
+
+### Word Array Preparing ###
+for card in card_file:
+    splitted_array = card.split(seperator)
+    if isEnglish:
+        last_one_corrected_splitted_array = [
+            text_corrector.fix_text(splitted_array[0]), text_corrector.fix_text(splitted_array[1].rsplit("\n")[0])]
+    else:
+        last_one_corrected_splitted_array = [
+            text_corrector.fix_text(splitted_array[0]),
+            text_corrector.fix_text(splitted_array[1]),
+            text_corrector.fix_text(splitted_array[2].rsplit("\n")[0])]
+    word_array.append(last_one_corrected_splitted_array)
+
+# To check word_array
+# print(word_array)
+# time.sleep(5)
+
+### Deck Writer Bot ###
 
 for word in word_array:
     for index in range(word_part_range):
