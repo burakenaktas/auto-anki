@@ -4,9 +4,9 @@ import ftfy as text_corrector
 import keyboard
 
 ### Config ###
-isEnglish = True  # If it is not English that means it is German
+isEnglish = False  # If it is not English that means it is German
 seperator = " - "
-card_file_name = "english_file.txt" if isEnglish else "german_file.txt"
+card_file_name = "word_file.txt"
 card_file = open(card_file_name, "r")
 word_array = []
 word_count = 40
@@ -95,6 +95,7 @@ for word in word_array:
         writeMeaning(current_word)
         time.sleep(1)
     events.click(add_field_px[0], add_field_px[1])
+    time.sleep(1)
 
 
 # events.click(color_field_px[0], color_field_px[1])
