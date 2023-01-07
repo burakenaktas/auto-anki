@@ -1,40 +1,45 @@
-examine - incelemek - to examine, to scrutinize
-covary - ilişki göstermek - to vary together, to be correlated
-distinction - ayrım, fark - a difference, a separation
-discern - fark etmek - to recognize, to distinguish
-deprived - yoksun bırakılmış - lacking, without
-conversely - tersine - in the opposite way, on the contrary
-prophecy - kehanet - a prediction, a forecast
-hence - bu yüzden - therefore, as a result
-get away - kaçmak - to escape, to flee
-gravitate - çekilme eğilimi göstermek - to be attracted, to move towards
-humongous - çok büyük - very large, huge
-inferred - çıkarım yapmak - to deduce, to deduce from evidence
-tremendously - çok, oldukça - very, greatly
-dismiss - reddetmek, çıkarmak - to reject, to remove
-ingest - yutmak, tüketmek - to swallow, to consume
-perceive - algılamak, fark etmek - to sense, to notice
-scarcity - azlık, yokluk - a shortage, a lack
-empirically - deneylerle, tecrübeyle - through experience or observation
-deviate - sapmak, uzaklaşmak - to stray, to depart from
-conjunction - birleşme, birleştirme - a joining, a linking
-in essence - esasında, özünde - at its core, in its true nature
-barf - kusmak - to vomit
-spooky - korkunç, ürkütücü - scary, frightening
-inclusion - dahil etme, içine alma - the act of including, the state of being included
-extrasensory - normal duyu dışı - beyond normal senses, supernatural
-obituary - ölüm ilanı - a notice of someone's death
-assemble - toplamak, birleştirmek - to gather, to put together
-dignity - saygı, haysiyet - respect, honor
-celestial - göksel - related to the sky or the heavens
-sober - aklı başında - clear-headed, not intoxicated
-discernibly - açıkça, belli belirtilerle - clearly, with obvious signs
-writh - kıvranmak - to twist, to squirm
-wail - ağlamak - to cry out loudly, to moan
-detriment - zarar, hasar - harm, damage
-crave - arzulamak, istemek - to desire intensely, to crave
-flesh - et - the muscle and fat of an animal or person
-wits - zekâ, aklı başında olma - intelligence, being alert
-poke - sokmak, işaret etmek - to prod, to poke
-delicate - hassas, narin - sensitive, fragile
-purification - arıtma, temiz - clearify
+begeisteren - heyecanlandırmak - to excite
+ausatmen - nefes vermek - to exhale
+als erstes - ilk olarak - firstly
+die Auszeit - ara verme - break
+der Wecker - alarm - alarm clock
+schließlich - sonuçta - finally
+springen - atlamak - to jump
+steigen - çıkmak - to climb
+bauen - inşa etmek - to build
+hüpfen - zıplamak - to hop
+hupen - korna çalmak - to honk
+auf und ab - yukarı aşağı - up and down
+nicken - başını sallamak - to nod
+pflücken - toplamak - to pick
+das Feld - tarlalar - field
+die Frucht - meyve - fruit
+herrlich - harika - splendid
+besitzen - sahip olmak - to possess
+besaß - sahip olmuş - possessed
+wohl - iyi - well
+bewusst - bilinçli - conscious
+der Schritt - adım - step
+befreien - özgürlük vermek - to free
+gründlich - kapsamlı - thorough
+erkunden - keşfetmek - to explore
+gerade - düz - straight
+entlang - boyunca - along
+aufgehen - açılmak - to open
+einstieg - giriş - entry
+losfahren - yola çıkmak - to start
+ablegen - bırakmak - to leave
+abnehmen - çıkarmak - to remove
+aushalten - dayanmak - to endure
+sondern - ayrıca - moreover
+der Ausblick - manzara - view
+ehemalig - eski - former
+Der Begriff - tanım - term
+achten - dikkat etmek - to pay attention
+sparsam - tasarruflu - thrifty
+aufmerksam - dikkatli - attentive
+selten - seyrek - rare
+berichten - rapor etmek - to report
+mutig - cesur - brave
+treu - sadık - loyal
+klug - zeki - wise

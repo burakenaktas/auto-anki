@@ -9,7 +9,6 @@ seperator = " - "
 card_file_name = "word_file.txt"
 card_file = open(card_file_name, "r")
 word_array = []
-word_count = 40
 word_part_range = 3  # how many seperator are there? if x, you should write x + 1 here
 # At least 1. If computer can't catch bot's speed, try to increase this.
 delay = 1
@@ -24,10 +23,6 @@ color_red_px = [242, 638]
 color_green_px = [269, 638]
 color_blue_px = [301, 638]
 color_ok_button_px = [611, 730]
-
-# time.sleep(3)
-# print(events.position())
-# time.sleep(10)
 
 ## Functions ##
 
@@ -55,14 +50,14 @@ def setWordColor():
 
 def setCurrentColor(type):
     events.click(set_color_px[0], set_color_px[1])
-    time.sleep(1)
+    time.sleep(delay)
     if type == 'der ':
         events.click(color_blue_px[0], color_blue_px[1])
     if type == 'das ':
         events.click(color_green_px[0], color_green_px[1])
     if type == 'die ':
         events.click(color_red_px[0], color_red_px[1])
-    time.sleep(1)
+    time.sleep(delay)
     events.click(color_ok_button_px[0], color_ok_button_px[1])
 
 
@@ -90,12 +85,12 @@ for word in word_array:
             if isGermanNoun:
                 setCurrentColor(current_word[:4])
             setFrontWord(current_word, isGermanNoun)
-            time.sleep(1)
+            time.sleep(delay)
             continue
         writeMeaning(current_word)
-        time.sleep(1)
+        time.sleep(delay)
     events.click(add_field_px[0], add_field_px[1])
-    time.sleep(1)
+    time.sleep(delay)
 
 
 # events.click(color_field_px[0], color_field_px[1])
