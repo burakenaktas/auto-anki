@@ -4,6 +4,7 @@ import ftfy as text_corrector
 import keyboard
 
 ### Config ###
+isMac = True
 isEnglish = False  # If it is not English that means it is German
 seperator = " - "
 card_file_name = "word_file.txt"
@@ -14,15 +15,15 @@ word_part_range = 3  # how many seperator are there? if x, you should write x + 
 delay = 1
 
 ## Deck Config ##
-front_field_px = [893, 154]
-back_field_px = [867, 226]
-add_field_px = [671, 1054]
-set_color_px = [285, 87]
-choose_color_px = [269, 87]
-color_red_px = [242, 638]
-color_green_px = [269, 638]
-color_blue_px = [301, 638]
-color_ok_button_px = [611, 730]
+front_field_px = [657, 236]
+back_field_px = [661, 306]
+add_field_px = [146, 577]
+set_color_px = [323, 170]
+choose_color_px = [300, 173]
+color_red_px = [75, 745]
+color_green_px = [105, 745]
+color_blue_px = [90, 745]
+color_ok_button_px = [179, 794]
 
 ## Functions ##
 
@@ -44,7 +45,14 @@ def writeMeaning(word):
 
 
 def setWordColor():
-    events.hotkey('ctrl', 'a')
+
+    key = 'ctrl'
+
+    if isMac:
+        key = 'command'
+
+    time.sleep(delay)
+    events.hotkey(key, 'a')
     events.click(choose_color_px[0], choose_color_px[1])
 
 
