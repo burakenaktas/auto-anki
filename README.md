@@ -12,6 +12,31 @@ Firstly, <a href="https://code.visualstudio.com">download VS Code</a> on your co
 
 Then, <a href="https://www.python.org/downloads/">download Python</a> too.
 
+Finally, <a href="https://git-scm.com/downloads">download Git</a>.
+
+<strong>If you get any errors except for auto anki code workflow errors, please search it on the internet. Otherwise, feel free to open an issue.</strong>
+
+After you set up everything, open VS Code and it's terminal to clone the repo with this code: 
+
+```
+git clone https://github.com/aktasburaken/auto-anki.git
+```
+
+After that go inside of the cloned folder and for download needed libraries write this code:
+
+For windows:
+```
+py -3 -m pip install ftfy keyboard
+```
+For Mac:
+```
+python3 -m pip install ftfy keyboard
+```
+
+<strong>If you get any errors except for auto anki code workflow errors, please search it on the internet. Otherwise, feel free to open an issue.</strong>
+
+Congratulations, you can keep going to everyone folder now.
+
 ## Everyone
 
 You should set a specific location for your Anki's adding card page and VS Code on your screen. 
