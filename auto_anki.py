@@ -5,13 +5,12 @@ import keyboard
 
 ### Config ###
 isMac = True
-isEnglish = False  # If it is not English that means it is German
+isGerman = False
 seperator = " - "
 card_file_name = "word_file.txt"
 card_file = open(card_file_name, "r")
 word_array = []
-word_part_range = 3  # how many seperator are there? if x, you should write x + 1 here
-# At least 1. If computer can't catch bot's speed, try to increase this.
+word_part_range = 3
 delay = 1
 
 ## Deck Config ##
@@ -27,13 +26,11 @@ color_ok_button_px = [179, 794]
 
 ## Functions ##
 
-# Common Functions #
-
 
 def setFrontWord(word, isGermanNoun):
     events.click(front_field_px[0], front_field_px[1])
     keyboard.write(word)
-    if isEnglish == False and isGermanNoun:
+    if isGerman and isGermanNoun:
         setWordColor()
 
 
@@ -78,7 +75,7 @@ for card in card_file:
         text_corrector.fix_text(splitted_array[2].rsplit("\n")[0])]
     word_array.append(last_one_corrected_splitted_array)
 
-# To check word_array
+# To check the word_array
 # print(word_array)
 # time.sleep(5)
 
@@ -87,7 +84,7 @@ for card in card_file:
 for word in word_array:
     for index in range(word_part_range):
         current_word = word[index]
-        isGermanNoun = isEnglish == False and (
+        isGermanNoun = isGerman and (
             'der ' == current_word[:4] or 'die ' == current_word[:4] or 'das ' == current_word[:4])
         if index == 0:
             if isGermanNoun:
@@ -99,8 +96,3 @@ for word in word_array:
         time.sleep(delay)
     events.click(add_field_px[0], add_field_px[1])
     time.sleep(delay)
-
-
-# events.click(color_field_px[0], color_field_px[1])
-# events.write(deck_name)
-# events.click(ok_button_px[0], ok_button_px[1])
