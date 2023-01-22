@@ -40,4 +40,30 @@ Let's say these coordinates were the coordinates for front_field_px variable. Th
 
 Don't forget that, if you don't want to change all deck config part of your code every single time before using <strong>Auto Anki</strong>, ensure you are preserving location of the both apps VS Code and Anki, also using same monitor.
 
-### What do all configurations mean?
+## What do all configurations mean?
+
+| Config      | Description       |
+| ------------- | ------------- |
+| isMac  | If you are using mac, set this true.  |
+| isGerman  | If your words are German, there are some specifications like coloring der, die, and das artikels.  |
+| seperator | Which symbol is going to seperate your words, default " - ". You should set seperator with spaces if you don't want to see unneccessary spaces in your code. |
+| card_file_name | This is the word file's name. |
+| card_file | This code assign the file to this variable in read mode. |
+| word_part_range | If your words are in "english - french" format, that means you should write two as range. For "english - french - turkish" you should write three |
+| delay | Delay seconds for mouse clicks. Zero can causes bugs sometime so one is recommended." |
+
+| Anki Click Config | Pixel Description |
+| ------------- | ------------- |
+| front_field_px | Front card click. |
+| back_field_px | Back card click. |
+| add_field_px | Add button click. |
+| color_ok_button_px | Okay button click. |
+| set_color_px (For German) | For german, opens color picker. |
+| choose_color_px (For German) | Chooser for current color. |
+| color_red/green/blue_px (For German) | You should set specific pixels for every single color. |
+
+
+
+
+
+
