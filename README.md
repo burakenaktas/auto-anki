@@ -36,7 +36,7 @@ You should put your mouse on whatever you want in three seconds to get the certa
 
 Let's say these coordinates were the coordinates for front_field_px variable. Then, you should write these coordinates with [x,y] format (showed below). 
 
-<img width="159" alt="Screen Shot 2023-01-22 at 21 59 20" src="https://user-images.githubusercontent.com/86871383/213934569-35b246dc-73e5-481b-9d28-7d8db19324af.png">
+<img width="171" alt="Screen Shot 2023-01-22 at 21 59 33" src="https://user-images.githubusercontent.com/86871383/213934619-8fdbbc3c-36d4-4fb2-b866-8c84795deda2.png">
 
 Don't forget that, if you don't want to change all deck config part of your code every single time before using <strong>Auto Anki</strong>, ensure you are preserving location of the both apps VS Code and Anki, also using same monitor.
 
