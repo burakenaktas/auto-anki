@@ -26,7 +26,7 @@ git clone https://github.com/aktasburaken/auto-anki.git
 
 After that go inside of the cloned folder and for download needed libraries write this code:
 
-For windows:
+For Windows:
 ```
 py -3 -m pip install ftfy keyboard
 ```
