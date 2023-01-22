@@ -6,7 +6,7 @@ What that means is you should set specific pixel locations for every single clic
 
 ## For Someone Who Are A Beginner
 
-If you have already Python and VS Code on your computer and you can run apps with Python in VS Code, scroll to the <strong>Everyone</strong> topic.
+If you have already Python and VS Code on your computer and you can run apps with Python in VS Code, scroll to the <a href="https://github.com/aktasburaken/auto-anki#everyone"><strong>Everyone</strong></a> topic.
 
 Firstly, <a href="https://code.visualstudio.com">download VS Code</a> on your computer.
 
@@ -18,7 +18,7 @@ You should set a specific location for your Anki's adding card page and VS Code 
 
 There is config part in the code.
 
-<img src="https://user-images.githubusercontent.com/86871383/210197768-905c4c0c-7c08-4dd3-8554-d5fbf247447b.png" width="800" />
+<img width="236" alt="Screen Shot 2023-01-22 at 21 50 46" src="https://user-images.githubusercontent.com/86871383/213934216-508e5563-261c-4fc5-9211-67c4265352ef.png">
 
 Before learning what are these configurations mean, we need to understand <strong>deck configs'</strong> variables with px (All of them ^^). Because you need to reassign these variables one by one according to your monitor and location of the both apps <strong>(If you have 1920x1080px monitor and using the apps as the picture below, you don't need to set the px variables again)</strong>.
 
