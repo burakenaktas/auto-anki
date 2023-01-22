@@ -4,7 +4,7 @@ Open source Anki (language flash card app) automation bot. You are setting words
 This bot is working with clicking relevant places on screen instead of you. 
 What that means is you should set specific pixel locations for every single click to achieve actions.
 
-## For Someone Who Are A Beginner
+## For Someone Who Is A Beginner
 
 If you have already Python and VS Code on your computer and you can run apps with Python in VS Code, scroll to the <a href="https://github.com/aktasburaken/auto-anki#everyone"><strong>Everyone</strong></a> topic.
 
