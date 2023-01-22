@@ -28,11 +28,11 @@ Before learning what are these configurations mean, we need to understand <stron
 
 If you saw, there was a file named "find_position.py" in our code. If you are setting your px configurations first time or again, use it to find declared button's x and y coordinates on your screen. You should open the file in your VS Code and then run the python code (showed below). 
 
-<img src="https://user-images.githubusercontent.com/86871383/210199003-8e93d5a1-23c3-4be0-aeb5-d9f0fbac7c03.png" width="400" />
+<img width="503" alt="Screen Shot 2023-01-22 at 21 53 02" src="https://user-images.githubusercontent.com/86871383/213934344-d3c3718c-c7c5-4d6d-b638-7664cda76142.png">
 
 You should put your mouse on whatever you want in three seconds to get the certain x and y coordinates of that pixel. You can see the pixels on your terminal (showed below). 
 
-<img src="https://user-images.githubusercontent.com/86871383/210199277-cdac661a-c74b-4362-ae71-89852b1cfc21.png" width="400" />
+<img width="439" alt="Screen Shot 2023-01-22 at 21 56 10" src="https://user-images.githubusercontent.com/86871383/213934493-1018c3bd-313b-4409-a60d-84e74647b2e0.png">
 
 Let's say these coordinates were the coordinates for front_field_px variable. Then, you should write these coordinates with [x,y] format (showed below). 
 
