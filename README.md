@@ -16,11 +16,13 @@ Finally, <a href="https://git-scm.com/downloads">download Git</a>.
 
 <strong>If you get any errors except for auto anki code workflow errors, please search it on the internet. Otherwise, feel free to open an issue.</strong>
 
+
 After you set up everything, open VS Code and it's terminal to clone the repo with this code: 
 
 ```
 git clone https://github.com/aktasburaken/auto-anki.git
 ```
+
 
 After that go inside of the cloned folder and for download needed libraries write this code:
 
