@@ -59,7 +59,7 @@ Don't forget that, if you don't want to change all deck config part of your code
 | add_field_px | Add button click. |
 | color_ok_button_px | Okay button click. |
 | set_color_px (For German) | For german, opens color picker. |
-| choose_color_px (For German) | Chooser for current color. |
+| choose_color_px (For German) | Picker for current color. |
 | color_red/green/blue_px (For German) | You should set specific pixels for every single color. |
 
 
