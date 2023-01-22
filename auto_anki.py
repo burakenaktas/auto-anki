@@ -3,13 +3,14 @@ import time
 import ftfy as text_corrector
 import keyboard
 
+word_array = []
+
 ### Config ###
 isMac = True
 isGerman = False
 seperator = " - "
 card_file_name = "word_file.txt"
 card_file = open(card_file_name, "r")
-word_array = []
 word_part_range = 3
 delay = 1
 
