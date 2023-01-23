@@ -41,7 +41,7 @@ Congratulations, you can keep going to everyone part now.
 
 ## Everyone
 
-You should set a specific location for your Anki's adding card page and VS Code on your screen. 
+You should set a specific location for your Anki's adding card page and VS Code on your screen. After set these locations, ensure that they are not going to change next opening or you know where you should put them again. 
 
 <img src="https://user-images.githubusercontent.com/86871383/210191278-52283596-8a43-447b-a39d-2d4793ed0c5b.png" width="800" />
 
@@ -49,11 +49,11 @@ There is config part in the code.
 
 <img width="236" alt="Screen Shot 2023-01-22 at 21 50 46" src="https://user-images.githubusercontent.com/86871383/213934216-508e5563-261c-4fc5-9211-67c4265352ef.png">
 
-Before learning what are these configurations mean, we need to understand <strong>deck configs'</strong> variables with px (All of them ^^). Because you need to reassign these variables one by one according to your monitor and location of the both apps <strong>(If you have 1920x1080px monitor and using the apps as the picture below, you don't need to set the px variables again)</strong>.
+Before learning what are these configurations mean, we need to understand <strong>deck configs'</strong> variables with px (All of them ^^). Because you need to reassign these variables one by one according to your monitor and location of the both apps <strong>
 
 ### Finding Position
 
-If you saw, there was a file named "find_position.py" in our code. If you are setting your px configurations first time or again, use it to find declared button's x and y coordinates on your screen. You should open the file in your VS Code and then run the python code (showed below). 
+If you saw, there was a file named "position_finder.py" in our code. If you are setting your px configurations first time or again, use it to find declared button's x and y coordinates on your screen. You should open the file in your VS Code and then run the python code (showed below). 
 
 <img width="503" alt="Screen Shot 2023-01-22 at 21 53 02" src="https://user-images.githubusercontent.com/86871383/213934344-d3c3718c-c7c5-4d6d-b638-7664cda76142.png">
 
@@ -73,10 +73,10 @@ Don't forget that, if you don't want to change all deck config part of your code
 | ------------- | ------------- |
 | isMac  | If you are using mac, set this true.  |
 | isGerman  | If your words are German, there are some specifications like coloring der, die, and das artikels.  |
-| seperator | Which symbol is going to seperate your words, default " - ". You should set seperator with spaces if you don't want to see unneccessary spaces in your code. |
+| seperator | Which symbol is going to seperate your words, default " - ". You should set seperator with spaces if you don't want to see unneccessary spaces in your code. There is an example in word_file.txt file. |
 | card_file_name | This is the word file's name. |
-| card_file | This code assign the file to this variable in read mode. |
-| word_part_range | If your words are in "english - french" format, that means you should write two as range. For "english - french - turkish" you should write three |
+| card_file | This variable open the file in read mode. |
+| word_part_range | If your words are in "english - french" format, that means you should write two as range. For "english - french - turkish" you should write three. |
 | delay | Delay seconds for mouse clicks. Zero can causes bugs sometime so one is recommended." |
 
 | Anki Click Config | Pixel Description |
