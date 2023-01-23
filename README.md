@@ -6,7 +6,7 @@ What that means is you should set specific pixel locations for every single clic
 
 ## For Someone Who Is A Beginner
 
-If you have already Python and VS Code on your computer and you can run apps with Python in VS Code, scroll to the <a href="https://github.com/aktasburaken/auto-anki#everyone"><strong>Everyone</strong></a> topic.
+If you have already VS Code, Python, and Git on your computer and you can run apps with Python in VS Code, scroll to the <a href="https://github.com/aktasburaken/auto-anki#everyone"><strong>Everyone</strong></a> topic.
 
 Firstly, <a href="https://code.visualstudio.com">download VS Code</a> on your computer.
 
