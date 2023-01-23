@@ -37,7 +37,7 @@ python3 -m pip install ftfy keyboard
 
 <strong>If you get any errors except for auto anki code workflow errors, please search it on the internet. Otherwise, feel free to open an issue.</strong>
 
-Congratulations, you can keep going to everyone folder now.
+Congratulations, you can keep going to everyone part now.
 
 ## Everyone
 
