@@ -11,8 +11,8 @@ isGerman = False
 seperator = " - "
 card_file_name = "word_file.txt"
 card_file = open(card_file_name, "r")
-word_part_range = 3
-delay = 1
+word_part_range = 2
+delay = 0.5
 
 ## Deck Config ##
 front_field_px = [657, 236]
@@ -70,10 +70,19 @@ def setCurrentColor(type):
 ### Word Array Preparing ###
 for card in card_file:
     splitted_array = card.split(seperator)
-    last_one_corrected_splitted_array = [
-        text_corrector.fix_text(splitted_array[0]),
-        text_corrector.fix_text(splitted_array[1]),
-        text_corrector.fix_text(splitted_array[2].rsplit("\n")[0])]
+    last_one_corrected_splitted_array = []
+
+    if word_part_range == 2:
+        last_one_corrected_splitted_array = [
+            text_corrector.fix_text(splitted_array[0]),
+            text_corrector.fix_text(splitted_array[1].rsplit("\n")[0])]
+
+    if word_part_range == 3:
+        last_one_corrected_splitted_array = [
+            text_corrector.fix_text(splitted_array[0]),
+            text_corrector.fix_text(splitted_array[1]),
+            text_corrector.fix_text(splitted_array[2].rsplit("\n")[0])]
+
     word_array.append(last_one_corrected_splitted_array)
 
 # To check the word_array
