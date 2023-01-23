@@ -76,7 +76,7 @@ Don't forget that, if you don't want to change all deck config part of your code
 | seperator | Which symbol is going to seperate your words, default " - ". You should set seperator with spaces if you don't want to see unneccessary spaces in your code. There is an example in word_file.txt file. |
 | card_file_name | This is the word file's name. |
 | card_file | This variable open the file in read mode. |
-| word_part_range | If your words are in "english - french" format, that means you should write two as range. For "english - french - turkish" you should write three. |
+| word_part_range | If your words are in "english - french" format, that means you should write two as range. For "english - french - turkish" you should write three. Valid values are two and three. |
 | delay | Delay seconds for mouse clicks. Zero can causes bugs sometime so one is recommended." |
 
 | Anki Click Config | Pixel Description |
