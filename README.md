@@ -43,13 +43,13 @@ Congratulations, you can keep going to everyone part now.
 
 You should set a specific location for your Anki's adding card page and VS Code on your screen. 
 
+<img src="https://user-images.githubusercontent.com/86871383/210191278-52283596-8a43-447b-a39d-2d4793ed0c5b.png" width="800" />
+
 There is config part in the code.
 
 <img width="236" alt="Screen Shot 2023-01-22 at 21 50 46" src="https://user-images.githubusercontent.com/86871383/213934216-508e5563-261c-4fc5-9211-67c4265352ef.png">
 
 Before learning what are these configurations mean, we need to understand <strong>deck configs'</strong> variables with px (All of them ^^). Because you need to reassign these variables one by one according to your monitor and location of the both apps <strong>(If you have 1920x1080px monitor and using the apps as the picture below, you don't need to set the px variables again)</strong>.
-
-<img src="https://user-images.githubusercontent.com/86871383/210191278-52283596-8a43-447b-a39d-2d4793ed0c5b.png" width="800" />
 
 ### Finding Position
 
