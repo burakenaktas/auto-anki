@@ -18,12 +18,12 @@ delay = 1
 front_field_px = [657, 236]
 back_field_px = [661, 306]
 add_field_px = [146, 577]
+color_ok_button_px = [179, 794]
 set_color_px = [323, 170]
 choose_color_px = [300, 173]
 color_red_px = [75, 745]
 color_green_px = [105, 745]
 color_blue_px = [90, 745]
-color_ok_button_px = [179, 794]
 
 ## Functions ##
 
