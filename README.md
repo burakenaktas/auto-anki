@@ -28,11 +28,11 @@ After that go inside of the cloned folder and for download needed libraries writ
 
 For Windows:
 ```
-py -3 -m pip install ftfy keyboard
+py -3 -m pip install ftfy keyboard pyautogui
 ```
 For Mac:
 ```
-python3 -m pip install ftfy keyboard
+python3 -m pip install ftfy keyboard pyautogui
 ```
 
 <strong>If you get any errors except for auto anki code workflow errors, please search it on the internet. Otherwise, feel free to open an issue.</strong>
