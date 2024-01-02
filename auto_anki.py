@@ -7,23 +7,23 @@ word_array = []
 
 ### Config ###
 isMac = True
-isGerman = False
+isGerman = True
 seperator = " - "
 card_file_name = "word_file.txt"
 card_file = open(card_file_name, "r")
-word_part_range = 2
+word_part_range = 4
 delay = 0.5
 
 ## Deck Config ##
-front_field_px = [657, 236]
-back_field_px = [661, 306]
-add_field_px = [146, 577]
-color_ok_button_px = [179, 794]
-set_color_px = [323, 170]
-choose_color_px = [300, 173]
-color_red_px = [75, 745]
-color_green_px = [105, 745]
-color_blue_px = [90, 745]
+front_field_px = [207, 208]
+back_field_px = [721, 283]
+add_field_px = [132, 542]
+color_ok_button_px = [654, 516]
+set_color_px = [366, 136]
+choose_color_px = [351, 135]
+color_red_px = [115, 406]
+color_green_px = [147, 406]
+color_blue_px = [90, 406]
 
 ## Functions ##
 
@@ -82,6 +82,14 @@ for card in card_file:
             text_corrector.fix_text(splitted_array[0]),
             text_corrector.fix_text(splitted_array[1]),
             text_corrector.fix_text(splitted_array[2].rsplit("\n")[0])]
+        
+    if word_part_range == 4:
+        last_one_corrected_splitted_array = [
+            text_corrector.fix_text(splitted_array[0]),
+            text_corrector.fix_text(splitted_array[1]),
+            text_corrector.fix_text(splitted_array[2]),
+            text_corrector.fix_text(splitted_array[3].rsplit("\n")[0])]
+
 
     word_array.append(last_one_corrected_splitted_array)
 
@@ -90,7 +98,6 @@ for card in card_file:
 # time.sleep(5)
 
 ### Deck Writer Bot ###
-
 for word in word_array:
     for index in range(word_part_range):
         current_word = word[index]
